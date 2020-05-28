@@ -1,14 +1,32 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "CREATE DELIVERY ORDER CANCEL TASK": {
+        "retCode": 0,
+        "retMessage": "",
+        "deliveryOrderNo": "8929293",
+        "taskResult": "DONE"
+    },
+    "MODIFY DELIVERY ADDRESS TASK": {
+        "retCode": 0,
+        "retMessage": "",
+        "deliveryOrderNo": "8929293",
+        "taskResult": "DONE"
+    },
+    "PUSH DELIVERY ORDERS": {
+        "retCode": 0,
+        "retMessage": "",
+        "results": [
+            {
+                "deliveryOrderNo": "5000807432",
+                "result": "DONE"
+            },
+            {
+                "deliveryOrderNo": "4000223982",
+                "result": "REJECTED"
+            }
+        ]
+    },
+    "CREATE WAREHOUSE GIFT DELIVERY ORDER": {
+        "retCode": 0,
+        "retMessage": ""
+    }
 }
