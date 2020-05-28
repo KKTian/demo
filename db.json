@@ -1,17 +1,17 @@
 {
-    "CREATE DELIVERY ORDER CANCEL TASK": {
+    "create": {
         "retCode": 0,
         "retMessage": "",
         "deliveryOrderNo": "8929293",
         "taskResult": "DONE"
     },
-    "MODIFY DELIVERY ADDRESS TASK": {
+    "modify": {
         "retCode": 0,
         "retMessage": "",
         "deliveryOrderNo": "8929293",
         "taskResult": "DONE"
     },
-    "PUSH DELIVERY ORDERS": {
+    "push": {
         "retCode": 0,
         "retMessage": "",
         "results": [
@@ -25,7 +25,7 @@
             }
         ]
     },
-    "CREATE WAREHOUSE GIFT DELIVERY ORDER": {
+    "gift": {
         "retCode": 0,
         "retMessage": ""
     }
